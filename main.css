@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: #24353F;
+}
+
+h1{
+    color: #17A2B8;
+}
+
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input::placeholder {
+    color: white !important; 
+}
+#incorrect , #notExist{
+    display: none;
+    color: red;
+}
+input{
+    color: white;
+}
+
+
+
+

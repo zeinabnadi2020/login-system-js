@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <h1 class="display-4 text-primary">Welcome! <span id="userName"></span></h1>
+        <p class="lead text-dark">We're glad to have you here. Explore the amazing features of our platform!</p>
+      </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+        userName = JSON.parse(localStorage.loggedUser);
+        if(userName !== null)
+        {
+            document.getElementById("userName").innerText = userName.name;
+        }
+    </script>
+</body>
+</html>

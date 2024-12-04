@@ -1,0 +1,21 @@
+body {
+  background-color: #f0f8ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #0056b3;
+}
